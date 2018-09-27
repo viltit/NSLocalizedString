@@ -1,0 +1,8 @@
+"works"                     = "It works!";
+"Temperature"               = "Temperature";
+"Temperature @{temp}"       = "Temperature: @{temp}";
+"The temperature in @{location} is @{temp} degrees." = "The temperature in @{location} is @{temp} degrees.";
+"Basel"                     = "Basel";
+"Hello"                     = "Hello";
+"number.of.days.one"        = "%d day remaining";
+"%@ number.of.days.other"      = "%@ days remaining";
