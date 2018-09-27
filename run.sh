@@ -1,8 +1,6 @@
-mkdir -p .build/x86_64-unknown-linux/debug/
-mkdir -p .build/x86_64-unknown-linux/release/
+swift build
 
-cp -R Resources .build/x86_64-unknown-linux/debug/
-cp -R Resources .build/x86_64-unknown-linux/release/
+cp -R Resources .build/debug/
+cp -R Resources .build/release/
 
-#tested with release option, same behaviour
-swift run | grep --color=auto 'failed\|$'
+swift run | grep --color=auto 'error\|$'
